@@ -9,7 +9,7 @@ import java.util.UUID;
 
 public class CrimeActivity extends SingleFragmentActivity {
 
-    public static final String EXTRA_CRIME_ID = "dev.sunilmourya.criminalintent.crime_id";
+    private static final String EXTRA_CRIME_ID = "dev.sunilmourya.criminalintent.crime_id";
 
     public static Intent newIntent(Context packageContext, UUID crimeId) {
         Intent intent = new Intent(packageContext, CrimeActivity.class);

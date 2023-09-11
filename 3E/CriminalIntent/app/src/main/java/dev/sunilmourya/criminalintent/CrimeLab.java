@@ -19,7 +19,7 @@ public class CrimeLab {
     }
 
     private CrimeLab(Context context) {
-        mCrimes = new ArrayList<Crime>();
+        mCrimes = new ArrayList<>();
     }
 
     public List<Crime> getCrimes() {
